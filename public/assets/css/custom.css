@@ -1,0 +1,102 @@
+.service {
+    background-color: #fff;
+    -webkit-box-shadow: 11px 11px 9px -7px rgba(64,61,64,1);
+    -moz-box-shadow: 11px 11px 9px -7px rgba(64,61,64,1);
+    box-shadow: 11px 11px 9px -7px rgba(64,61,64,1);
+}
+
+.mb20
+{
+    margin-bottom: 20px !important;
+}
+
+.text-t{
+    text-align: left;
+    margin: 2% 10%;
+}
+
+.shadow{
+    -webkit-box-shadow: 11px 11px 9px -7px rgba(64,61,64,1);
+    -moz-box-shadow: 11px 11px 9px -7px rgba(64,61,64,1);
+    box-shadow: 11px 11px 9px -7px rgba(64,61,64,1);
+}
+
+.line-break{
+    height: 1px;
+    width: 100%;
+    background: #e1e1e1;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.price-box{
+    color: #c52228;
+    font-family: "Lato";
+    font-size: 52px;
+    font-weight: 400;
+    margin: -21px auto -16px;
+    padding: 0;
+}
+
+.price-box sup{
+    font-size: 18px;
+    margin: -10px -13px 0 -11px;
+}
+
+sup{
+    top: -1.3em;
+}
+
+sub, sup {
+    position: relative;
+    font-size: 30%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+.pricebox sub {
+    font-size: 20px;
+    margin: 0 0 0 -32px;
+}
+
+sub {
+    bottom: 0.3em;
+}
+
+strike {
+    text-decoration: line-through;
+}
+
+.price-percent {
+    color: #418fbf;
+    font-size: 16px;
+}
+
+.price-percent strong{
+        font-weight: 700;
+}
+
+.btn-t {
+    border: 0.09px dotted #1b75ec;
+}
+
+.btn-t:hover{
+    background-color: #1b75ec;
+}
+
+.img {
+    margin: 5px 0px 5px -16px;
+    padding: 5px 0px 5px 0px;
+}
+
+.text-img{
+    margin: 5px 0px;
+    padding: 5px 10px 5px 0px;
+}
+
+@media (max-width: 991px) {
+    .faq-slide-block h3 {
+        margin-bottom: 40px !important;
+    }
+}
